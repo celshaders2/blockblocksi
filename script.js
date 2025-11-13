@@ -6,8 +6,8 @@ function login() {
     const contentContainer = document.getElementById('content-container');
 
     // Hardcoded credentials for demonstration
-    const correctUsernames = 'Blocksee400z' ;
-    const correctPassword = 'Jan1000g7';
+    const correctUsername = 'Blocksee400z' ;
+    const correctPassword = 'Jan1000g7' ;
 
     if (usernameInput === correctUsername && passwordInput === correctPassword) {
         loginContainer.style.display = 'none';
