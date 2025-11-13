@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container" id="login-container">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p id="error-message" class="error-message"></p>
+    </div>
+
+    <div class="content-container" id="content-container" style="display:none;">
+        <h2>Welcome!</h2>
+        <p>Step 1: Go to <a href="https://www.coolmathgames.com/">coolmathgames</a> and bookmark<br>
+        the "This site is blocked" site. Then, Go to the chrome Bookmark Manager, <br>
+        And create a new folder. Put the bookmark in the folder, then copy it, and hold Ctrl+V<br>
+        Until you have 400 tabs. it should say 399 duplicates. Once that is complete, go out<br>
+        and close all windows, and open one chrome new tab. Then right click the folder in the <br>
+        Bookmarks bar and open all (400) Then wait for it to be not frozen, and then minimize (the underscore) <br>
+        That window. Now everything should be unblocked and you can open a new chrome window. <br>
+        DO NOT CLOSE THE WINDOW WITH THE 400 TABS!!!!!!!!</p>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
